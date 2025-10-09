@@ -1,0 +1,43 @@
+para empezar una lectura por encima de todo el proyecto, fijandome en metodologias, tecnologias y palabras clave
+
+Django web framework
+
+https://djangoproject.com/
+
+specification o spec, project fgoals, describir funcionalidades y discutir apariencia e interfaz de usuario.
+
+Vamos a crear una web app llamada Learnig Log. Donde el usuario puede ir escrbiendo notas de los temas que le interesen como si fueran entradas de un diario. La pagina principal describira el sitio e invitara al usuario a registrarse.Una vez registrado el usuario podra crear nuevos temas, añadir entradas, leerlas y editar las entradas existentes, asi como borrarlas.
+
+virtual environment
+
+django-admin startproject crea los archivos de manage.py con comandos de django
+settings que controla como django interactua con nuestro systema y maneja nuestro proyecto. pero como lo hace? de un vistazo parece escrito como sql.
+urls.py maneja con funciones? las url en funcion del browser request
+wsgi (web server gateway interfarce) 
+
+migrate(modify) database es SQLite
+runserver
+
+Crear database 
+runserver 
+la linea python manage.py runserver desglosada
+crear otro web en puerto local, esta sera la pagina de rol 
+
+Creo el entorno virtual, luego instalo Django, con Django tengo manage.py que me sirve par creat la database y luego encender el servidor, pero antes como django admin empiezo un proyecto que sera lo que crea ese manage.py y el url etc.
+Al intentar encender los dos servidores a la vez me dice que uno no puedo porque ya esta el puerto en uso.
+
+he creado un clase topic que hereda de la clase model una parent class incluida en Django, que es eso? que significa? ademas le hemos anyadido dos atributos text y data_added
+
+como podria personalizar, a mi diario de rol podria consultar otros fields del django model.
+
+Por que esa sintaxos del __str__(self)
+Ahora tenemos que relacionar  la app con el proyecto en general, hemos modificado los datos que nuestro proyecto maneja con makemigrations y modificando el models.py
+
+Ahora vamos a administrar los permisos de lo usuarios
+si algo tan simple como la web app de django utiliza los hashes, como son tantas contraseñas vulneradas contraseñas 
+Cual es el flujo de mi estructura de archivos, porque un learning log y un learning logs
+
+Ahora ya podemos añadir entradas a nuestra web 
+lo siguiente que veremos es la django shell
+
+
